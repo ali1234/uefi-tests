@@ -1,0 +1,6 @@
+Batch files for the tests run in my series of articles on Secure Boot:
+
+http://al.robotfuzz.com/playing-with-uefi-secure-boot-part-1-ovmf/
+http://al.robotfuzz.com/playing-with-uefi-secure-boot-part-2-basic-authenticode-signing-with-ms-tools/
+
+Consult the comments in each batch file to see what they do.
