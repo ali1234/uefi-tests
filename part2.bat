@@ -19,4 +19,6 @@ pvk2pfx -pvk KekRoot.pvk -spc KekRoot.cer -pfx KekRoot.pfx
 copy HelloWorld.efi.unsigned HelloWorldKek.efi
 signtool sign /f KekRoot.pfx /fd sha256 HelloWorldKek.efi
 
+copy HelloWorld.efi.unsigned HelloWorld.efi
+
 ENDLOCAL
